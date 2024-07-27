@@ -20,8 +20,16 @@ data1s=data1.replace('\n', '')
 data1s=data1s.replace(' ', '')
 data2s=data2.replace('\n', '')
 data2s=data2s.replace(' ', '')
-print('var gradedata=['+data1s+','+data2s+'];')
+datag='var gradedata=['+data1s+','+data2s+'];'
+print(datag)
 
 os.system("git pull")
 os.system("git config user.name TAMAGO551234")
 os.system("git config user.email tamago55.1234@gmail.com")
+
+with open('Kagakugijutu-Scratch/json/grade.js',mode='w') as f:
+    f.write(datag)
+
+os.system("git add .")
+os.system("git commit -m \"update grade files\"")
+os.system("git push")
