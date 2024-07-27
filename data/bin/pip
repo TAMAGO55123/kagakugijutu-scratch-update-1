@@ -1,4 +1,4 @@
-#!/Users/tamago/Documents/github/kagakugijutu-scratch-update-1/data/bin/python3.12
+#!/Users/tamago/Documents/github/kagakugijutu-scratch-update-1/data/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
