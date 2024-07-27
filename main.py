@@ -23,13 +23,18 @@ data2s=data2s.replace(' ', '')
 datag='var gradedata=['+data1s+','+data2s+'];'
 print(datag)
 
+print("git pull")
 os.system("git pull")
 os.system("git config user.name TAMAGO551234")
 os.system("git config user.email tamago55.1234@gmail.com")
 
+print("write grade.js")
 with open('Kagakugijutu-Scratch/json/grade.js',mode='w') as f:
     f.write(datag)
 
+print("git add .")
 os.system("git add .")
+print("git commit -m \"update grade files\"")
 os.system("git commit -m \"update grade files\"")
+print("git push")
 os.system("git push")
