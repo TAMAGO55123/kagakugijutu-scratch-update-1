@@ -32,6 +32,7 @@ print("write grade.js")
 with open('Kagakugijutu-Scratch/json/grade.js',mode='w') as f:
     f.write(datag)
 
+os.system("cd Kagakugijutu-Scratch")
 print("git add .")
 os.system("git add .")
 print("git commit -m \"update grade files\"")
