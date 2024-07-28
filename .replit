@@ -1,0 +1,8 @@
+modules = ["python-3.12", "nodejs-20", "bash", "web"]
+run = "data/bin/python3 main.py"
+
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "data/bin/python3 main.py"]
