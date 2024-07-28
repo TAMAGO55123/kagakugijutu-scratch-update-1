@@ -5,7 +5,9 @@ import os
 webhook_url1 = 'https://script.google.com/macros/s/AKfycbzZ18jdzpAoMQw7q8Ie9z5ren9Y5QUdv9jAq27gvTTijmc8jLBfg0eomYZJF8JwEpof/exec?grade=1'
 webhook_url2 = 'https://script.google.com/macros/s/AKfycbzZ18jdzpAoMQw7q8Ie9z5ren9Y5QUdv9jAq27gvTTijmc8jLBfg0eomYZJF8JwEpof/exec?grade=2'
 
+print('r1')
 r1=requests.get(url=webhook_url1)
+print('r2')
 r2=requests.get(url=webhook_url2)
 
 print('1')
