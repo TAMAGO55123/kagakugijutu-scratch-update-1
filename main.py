@@ -2,10 +2,10 @@ import json
 import requests
 import os
 
-#webhook_url1 = 'https://script.google.com/macros/s/AKfycbzZ18jdzpAoMQw7q8Ie9z5ren9Y5QUdv9jAq27gvTTijmc8jLBfg0eomYZJF8JwEpof/exec?grade=1'
-webhook_url1=os.getenv('webhook1')
-#webhook_url2 = 'https://script.google.com/macros/s/AKfycbzZ18jdzpAoMQw7q8Ie9z5ren9Y5QUdv9jAq27gvTTijmc8jLBfg0eomYZJF8JwEpof/exec?grade=2'
-webhook_url2=os.getenv('webhook2')
+webhook_url1 = 'https://script.google.com/macros/s/AKfycbzZ18jdzpAoMQw7q8Ie9z5ren9Y5QUdv9jAq27gvTTijmc8jLBfg0eomYZJF8JwEpof/exec?grade=1'
+#webhook_url1=os.getenv('webhook1')
+webhook_url2 = 'https://script.google.com/macros/s/AKfycbzZ18jdzpAoMQw7q8Ie9z5ren9Y5QUdv9jAq27gvTTijmc8jLBfg0eomYZJF8JwEpof/exec?grade=2'
+#webhook_url2=os.getenv('webhook2')
 
 print('r1')
 r1 = requests.get(url=webhook_url1)
@@ -29,8 +29,8 @@ print(datag)
 
 print("git pull")
 os.system("git pull")
-os.system("git config user.name TAMAGO551234")
-os.system("git config user.email tamago55.1234@gmail.com")
+os.system("git config user.name TAMAGO55123")
+os.system("git config user.email tamago.55123@gmail.com")
 
 print("write grade.js")
 with open('docs/grade.js', mode='w') as f:
