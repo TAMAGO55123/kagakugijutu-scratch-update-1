@@ -46,22 +46,12 @@ get
 }
 var gradedata=[{"grade":1,"ID":[1143583120,1087859425,1143998457,1130621736],"Name":["白と黒","豪運！？当たりを13回当てろ！","環境問題クイズ","プラットフォーマーEasy"],"length":4},{"grade":2,"ID":[1119886560,886142060,1101581730,"f127863(hco)","f198723(co)",871332809,1051152019,1145536938],"Name":["環境問題について学ぶゲーム","おにぎりガチャex","何もかもがめっちゃ早いゲーム","Fistoflatning！サンズ戦","Chat　APP　V1.0","プロセカガチャ","鬼畜避けゲー","この世界との共存を！"],"length":8}];
 git pull
-Already up to date.
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not in a git directory
+fatal: not in a git directory
 write grade.js
-git add .
-git commit -m "update grade files"
-[main 0246a97] update grade files
- 1 file changed, 51 insertions(+)
- create mode 100644 logs/2025-04-24-04-09-18.log
-git push
-Username for 'https://github.com': TAMAGO55123
-Password for 'https://TAMAGO55123@github.com': 
-Enumerating objects: 17, done.
-Counting objects:   5% (1/17)Counting objects:  11% (2/17)Counting objects:  17% (3/17)Counting objects:  23% (4/17)Counting objects:  29% (5/17)Counting objects:  35% (6/17)Counting objects:  41% (7/17)Counting objects:  47% (8/17)Counting objects:  52% (9/17)Counting objects:  58% (10/17)Counting objects:  64% (11/17)Counting objects:  70% (12/17)Counting objects:  76% (13/17)Counting objects:  82% (14/17)Counting objects:  88% (15/17)Counting objects:  94% (16/17)Counting objects: 100% (17/17)Counting objects: 100% (17/17), done.
-Delta compression using up to 4 threads
-Compressing objects:  10% (1/10)Compressing objects:  20% (2/10)Compressing objects:  30% (3/10)Compressing objects:  40% (4/10)Compressing objects:  50% (5/10)Compressing objects:  60% (6/10)Compressing objects:  70% (7/10)Compressing objects:  80% (8/10)Compressing objects:  90% (9/10)Compressing objects: 100% (10/10)Compressing objects: 100% (10/10), done.
-Writing objects:   9% (1/11)Writing objects:  18% (2/11)Writing objects:  27% (3/11)Writing objects:  36% (4/11)Writing objects:  45% (5/11)Writing objects:  54% (6/11)Writing objects:  63% (7/11)Writing objects:  72% (8/11)Writing objects:  81% (9/11)Writing objects:  90% (10/11)Writing objects: 100% (11/11)Writing objects: 100% (11/11), 2.80 KiB | 478.00 KiB/s, done.
-Total 11 (delta 5), reused 0 (delta 0), pack-reused 0
-remote: Resolving deltas:   0% (0/5)[Kremote: Resolving deltas:  20% (1/5)[Kremote: Resolving deltas:  40% (2/5)[Kremote: Resolving deltas:  60% (3/5)[Kremote: Resolving deltas:  80% (4/5)[Kremote: Resolving deltas: 100% (5/5)[Kremote: Resolving deltas: 100% (5/5), completed with 3 local objects.[K
-To https://github.com/TAMAGO55123/kagakugijutu-scratch-update-1.git
-   108344f..0246a97  main -> main
+Traceback (most recent call last):
+  File "/home/tamago/Desktop/kagakugijutu-scratch-update-1/main.py", line 52, in <module>
+    with open('docs/grade.js', mode='w') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'docs/grade.js'

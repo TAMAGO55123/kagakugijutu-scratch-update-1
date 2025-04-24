@@ -49,7 +49,7 @@ os.system("git config user.email tamago.55123@gmail.com")
 
 # 書き込み
 print("write grade.js")
-with open('docs/grade.js', mode='w') as f:
+with open('/home/tamago/Desktop/kagakugijutu-scratch-update-1/docs/grade.js', mode='w') as f:
     f.write(datag)
 
 # アップロード
