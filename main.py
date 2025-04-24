@@ -4,24 +4,33 @@ import requests
 import os
 
 # データベースの取得URLを指定
-webhook_url1 = 'https://script.google.com/macros/s/AKfycbzZ18jdzpAoMQw7q8Ie9z5ren9Y5QUdv9jAq27gvTTijmc8jLBfg0eomYZJF8JwEpof/exec?grade=1'
+#webhook_url1 = 'https://script.google.com/macros/s/AKfycbzZ18jdzpAoMQw7q8Ie9z5ren9Y5QUdv9jAq27gvTTijmc8jLBfg0eomYZJF8JwEpof/exec?grade=1'
 #webhook_url1=os.getenv('webhook1')
-webhook_url2 = 'https://script.google.com/macros/s/AKfycbzZ18jdzpAoMQw7q8Ie9z5ren9Y5QUdv9jAq27gvTTijmc8jLBfg0eomYZJF8JwEpof/exec?grade=2'
+#webhook_url2 = 'https://script.google.com/macros/s/AKfycbzZ18jdzpAoMQw7q8Ie9z5ren9Y5QUdv9jAq27gvTTijmc8jLBfg0eomYZJF8JwEpof/exec?grade=2'
 #webhook_url2=os.getenv('webhook2')
 
+webhook_url='https://script.google.com/macros/s/AKfycbzMgqL1I2zQq_UJ7fEVif9GQKPJ0xhlbdHLBIDLQYx2jWKRhPkUeav0_riGAJlojo5g/exec'
+
 # データベースからデータを取得
-print('r1')
-r1 = requests.get(url=webhook_url1)
-print('r2')
-r2 = requests.get(url=webhook_url2)
+#print('r1')
+#r1 = requests.get(url=webhook_url1)
+#print('r2')
+#r2 = requests.get(url=webhook_url2)
+
+print('get')
+r = requests.get(url=webhook_url)
+r0=json.loads(r.text)
+print(r0)
+r1=r0['data'][0]
+r2=r0['data'][1]
 
 # データを変換する
 print('1')
-data1 = json.dumps(json.loads(r1.text), ensure_ascii=False, indent=4)
+data1 = json.dumps(r1, ensure_ascii=False, indent=4)
 print(data1)
 
 print('\n2')
-data2 = json.dumps(json.loads(r2.text), ensure_ascii=False, indent=4)
+data2 = json.dumps(r2, ensure_ascii=False, indent=4)
 print(data2)
 
 data1s = data1.replace('\n', '')
