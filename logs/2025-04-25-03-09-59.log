@@ -49,11 +49,3 @@ git pull
 Already up to date.
 write grade.js
 git add .
-git commit -m "update grade files"
-[main a77ff5b] update grade files
- 3 files changed, 67 insertions(+)
- create mode 100644 .run.sh.swp
- create mode 100644 logs/2025-04-25-03-09-47.log
-git push
-Username for 'https://github.com': TAMAGO55123
-Password for 'https://TAMAGO55123@github.com': 
