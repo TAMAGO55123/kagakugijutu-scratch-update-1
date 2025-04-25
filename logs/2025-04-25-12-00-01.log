@@ -46,22 +46,25 @@ get
 }
 var gradedata=[{"grade":1,"ID":[1143583120,1087859425,1143998457,1130621736],"Name":["白と黒","豪運！？当たりを13回当てろ！","環境問題クイズ","プラットフォーマーEasy"],"length":4},{"grade":2,"ID":[1119886560,886142060,1101581730,"f127863(hco)","f198723(co)",871332809,1051152019,1145536938],"Name":["環境問題について学ぶゲーム","おにぎりガチャex","何もかもがめっちゃ早いゲーム","Fistoflatning！サンズ戦","Chat　APP　V1.0","プロセカガチャ","鬼畜避けゲー","この世界との共存を！"],"length":8}];
 git pull
-Already up to date.
+fatal: detected dubious ownership in repository at '/home/tamago/Desktop/kagakugijutu-scratch-update-1'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/tamago/Desktop/kagakugijutu-scratch-update-1
+fatal: not in a git directory
+fatal: not in a git directory
 write grade.js
 git add .
+fatal: detected dubious ownership in repository at '/home/tamago/Desktop/kagakugijutu-scratch-update-1'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/tamago/Desktop/kagakugijutu-scratch-update-1
 git commit -m "update grade files"
-[main e9ba81e] update grade files
- 1 file changed, 51 insertions(+)
- create mode 100644 logs/2025-04-24-04-20-57.log
+fatal: detected dubious ownership in repository at '/home/tamago/Desktop/kagakugijutu-scratch-update-1'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/tamago/Desktop/kagakugijutu-scratch-update-1
 git push
-Username for 'https://github.com': TAMAGO55123
-Password for 'https://TAMAGO55123@github.com': 
-Enumerating objects: 6, done.
-Counting objects:  16% (1/6)Counting objects:  33% (2/6)Counting objects:  50% (3/6)Counting objects:  66% (4/6)Counting objects:  83% (5/6)Counting objects: 100% (6/6)Counting objects: 100% (6/6), done.
-Delta compression using up to 4 threads
-Compressing objects:  25% (1/4)Compressing objects:  50% (2/4)Compressing objects:  75% (3/4)Compressing objects: 100% (4/4)Compressing objects: 100% (4/4), done.
-Writing objects:  25% (1/4)Writing objects:  50% (2/4)Writing objects:  75% (3/4)Writing objects: 100% (4/4)Writing objects: 100% (4/4), 1.17 KiB | 598.00 KiB/s, done.
-Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
-remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
-To https://github.com/TAMAGO55123/kagakugijutu-scratch-update-1.git
-   0fc98f3..e9ba81e  main -> main
+fatal: detected dubious ownership in repository at '/home/tamago/Desktop/kagakugijutu-scratch-update-1'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/tamago/Desktop/kagakugijutu-scratch-update-1
