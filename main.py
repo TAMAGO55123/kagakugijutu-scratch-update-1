@@ -54,9 +54,9 @@ with open('docs/grade.js', mode='w') as f:
 
 # アップロード
 #os.system("cd Kagakugijutu-Scratch")
-print("git add .")
-os.system("git add .")
-print("git commit -m \"update grade files\"")
-os.system("git commit -m \"update grade files\"")
-print("git push")
-os.system("git push")
+#print("git add .")
+#os.system("git add .")
+#print("git commit -m \"update grade files\"")
+#os.system("git commit -m \"update grade files\"")
+#print("git push")
+#os.system("git push")
