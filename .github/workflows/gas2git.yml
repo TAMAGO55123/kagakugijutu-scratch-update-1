@@ -2,7 +2,7 @@ name: Update grade.js from GAS
 
 on:
   schedule:
-    - cron: "0 * * * *"   # 毎時実行（必要に応じて変更）
+    - cron: "0 * * * *"
   workflow_dispatch:
 
 jobs:
@@ -13,18 +13,26 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Install Poetry
+        run: |
+          curl -sSL https://install.python-poetry.org | python3 -
+          echo "$HOME/.local/bin" >> $GITHUB_PATH
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Install dependencies
+      - name: Install dependencies via Poetry
         run: |
-          pip install requests
+          poetry install --no-interaction --no-root
 
-      - name: Run main.py
+      - name: Ensure docs directory exists
+        run: mkdir -p docs
+
+      - name: Run main.py via Poetry
         run: |
-          python main.py
+          poetry run python main.py
         env:
           GAS_URL: ${{ secrets.GAS_URL }}
 
