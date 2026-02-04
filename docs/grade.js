@@ -1,1 +1,1 @@
-var gradedata=[{"grade":1,"ID":[""],"Name":[""],"length":0},{"grade":2,"ID":[""],"Name":[""],"length":0}];
+var gradedata=[{"grade":1,"ID":[""],"Name":[""],"length":0},{"grade":2,"ID":["",914307204],"Name":["","test"],"length":1}];
