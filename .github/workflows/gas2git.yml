@@ -36,8 +36,6 @@ jobs:
       - name: Run main.py via Poetry
         run: |
           poetry run python main.py
-        env:
-          GAS_URL: ${{ secrets.GAS_URL }}
 
       - name: Commit and Push changes
         run: |
