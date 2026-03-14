@@ -1,1 +1,1 @@
-var gradedata=[{"grade":1,"ID":[""],"Name":[""],"length":0},{"grade":2,"ID":["",914307204],"Name":["","test"],"length":1}];
+var gradedata=[{"grade":1,"ID":[1222591320],"Name":["猫から逃げろちょいハード版"],"length":1},{"grade":2,"ID":["",914307204],"Name":["","test"],"length":1}];
